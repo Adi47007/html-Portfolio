@@ -1,0 +1,61 @@
+.mid{
+    text-align: center;
+    background-image: url("pix.jpg");
+}
+.mid{
+    height: 100vh;
+    display:grid;
+    place-items: center;
+}
+h1{
+    margin-bottom: 2rem;
+}
+.mid h1{
+    color: rgb(17, 10, 0);
+    font-family: "Indie Flower", cursive;
+        font-weight: 700;
+        font-style: normal;
+        margin-top:20px ;
+        font-size: 75px;     
+        text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+input,
+select,
+textarea {
+    padding: 1.4rem;
+    border: 1px solid black; 
+}
+textarea{
+    height: 6rem;
+}
+button{
+    width: 8rem;
+    padding:1.4 rem;
+    cursor:pointer;
+    background: #673de6;
+    color: white;
+}
+@media (min-width:319px) and (max-width:410px)
+{
+      body{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+      }
+}  
+@media (min-width:481px) and (max-width:1200px)
+{
+      body{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+      }
+}  
