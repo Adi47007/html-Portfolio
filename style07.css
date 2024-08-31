@@ -41,8 +41,12 @@ button{
     background: #673de6;
     color: white;
 }
-@media (min-width:319px) and (max-width:410px)
-{
+
+@media (min-width: 600px) and (max-width: 768px){
+    header ul.nav {
+        flex-direction: row;
+        align-items: center;
+    }
       body{
         display: inline-flex;
         flex-wrap: wrap;
@@ -50,12 +54,16 @@ button{
         text-align: center;
       }
 }  
-@media (min-width:481px) and (max-width:1200px)
+@media (max-width: 599px) 
 {
+    header ul.nav {
+        flex-direction: column;
+        align-items: center;
+    }
       body{
         display: inline-flex;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
       }
-}  
+}    
